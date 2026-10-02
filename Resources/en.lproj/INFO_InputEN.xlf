@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/TableForms/1/Input/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="INFOInput_PageNumber" resname="INFOInput_PageNumber">
+				<source>Page number:</source>
+				<target>Page number:</target>
+			</trans-unit>
+			<trans-unit id="INFOInput_TabTitle" resname="INFOInput_TabTitle">
+				<source>Tab Title:</source>
+				<target>Tab Title:</target>
+			</trans-unit>
+			<trans-unit id="INFOInput_InsertTable" resname="INFOInput_InsertTable">
+				<source>Insert table</source>
+				<target>Insert table</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

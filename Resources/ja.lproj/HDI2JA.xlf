@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_TooltipPage" resname="HDI2_TooltipPage">
+				<source>Page mode</source>
+				<target>ページモード</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TooltipDraft" resname="HDI2_TooltipDraft">
+				<source>Draft mode</source>
+				<target>ドラフトモード</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TooltipWeb" resname="HDI2_TooltipWeb">
+				<source>Web mode</source>
+				<target>Webモード</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HTMLWYSIWYG" resname="HDI2_HTMLWYSIWYG">
+				<source>HTML WYSIWYG</source>
+				<target>HTML WYSIWYG</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupRangePosition" resname="HDI2_GroupRangePosition">
+				<source>Range position</source>
+				<target>範囲の位置</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupCurrentRange" resname="HDI2_GroupCurrentRange">
+				<source>Current range</source>
+				<target>現在の範囲</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BeginsAt" resname="HDI2_BeginsAt">
+				<source>Begins at…</source>
+				<target>開始位置…</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Start" resname="HDI2_Start">
+				<source>Start:</source>
+				<target>開始:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_End" resname="HDI2_End">
+				<source>End:</source>
+				<target>終了:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Code" resname="HDI2_Code">
+				<source>Code</source>
+				<target>コード</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderSection" resname="HDI2_HeaderSection">
+				<source>Section</source>
+				<target>セクション</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPage" resname="HDI2_HeaderPage">
+				<source>Page</source>
+				<target>ページ</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderColumn" resname="HDI2_HeaderColumn">
+				<source>Column</source>
+				<target>カラム</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderLine" resname="HDI2_HeaderLine">
+				<source>Line</source>
+				<target>行</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPositionInLine" resname="HDI2_HeaderPositionInLine">
+				<source>Position in line</source>
+				<target>行内の位置</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderBookmarks" resname="HDI2_HeaderBookmarks">
+				<source>Bookmarks</source>
+				<target>ブックマーク</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPosShort" resname="HDI2_HeaderPosShort">
+				<source>Pos. in line</source>
+				<target>行内位置</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnParagraphs" resname="HDI2_BtnParagraphs">
+				<source>Get paragraphs info</source>
+				<target>段落情報を取得</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnBookmarks" resname="HDI2_BtnBookmarks">
+				<source>Get Bookmarks info</source>
+				<target>ブックマーク情報を取得</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

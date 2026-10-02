@@ -1,0 +1,9 @@
+//%attributes = {"invisible":true}
+ARRAY TEXT:C222(_Descriptions; 0)
+ARRAY TEXT:C222(_TabTitles; 0)
+ARRAY TEXT:C222(_bookmarks; 0)
+ARRAY LONGINT:C221(_columns; 0)
+ARRAY LONGINT:C221(_lines; 0)
+ARRAY LONGINT:C221(_pages; 0)
+ARRAY LONGINT:C221(_positions; 0)
+ARRAY LONGINT:C221(_sections; 0)
