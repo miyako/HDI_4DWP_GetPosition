@@ -1,0 +1,10 @@
+
+C_OBJECT:C1216($range)
+C_LONGINT:C283($p)
+
+$p:=Find in array:C230(Self:C308->; True:C214)
+If ($p>0)
+	$range:=WP Bookmark range:C1416(WParea; _bookmarks{$p})
+	WP SELECT:C1348(WParea; $range)
+End if 
+

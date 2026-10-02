@@ -1,0 +1,738 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 1000,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 720,
+	"windowMaxHeight": 32000,
+	"width": 1020,
+	"height": 720,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onTimer",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Line": {
+					"type": "line",
+					"top": 0,
+					"left": 480,
+					"height": 640,
+					"visibility": "hidden",
+					"sizingY": "grow",
+					"stroke": "#800080",
+					"strokeDashArray": "1 1"
+				},
+				"_TabTitles": {
+					"type": "tab",
+					"top": 20,
+					"left": 540,
+					"width": 460,
+					"height": 680,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"dataSource": "_TabTitles",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button64": {
+					"type": "checkbox",
+					"top": 20,
+					"left": 20,
+					"width": 40,
+					"height": 40,
+					"tooltip": "Page mode",
+					"action": "pageMode?value=page",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar2/View/Page_32px.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/3D Button64.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button65": {
+					"type": "checkbox",
+					"top": 20,
+					"left": 60,
+					"width": 40,
+					"height": 40,
+					"tooltip": "Draft mode",
+					"action": "pageMode?value=draft",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar2/View/Draft_32px.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/3D Button65.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Button68": {
+					"type": "checkbox",
+					"top": 20,
+					"left": 100,
+					"width": 40,
+					"height": 40,
+					"tooltip": "Web mode",
+					"action": "pageMode?value=embedded",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar2/View/Web_32px.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"method": "ObjectMethods/3D Button68.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"WParea": {
+					"type": "write",
+					"top": 70,
+					"left": 20,
+					"width": 500,
+					"height": 630,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showPageFrames": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onSelectionChange"
+					]
+				},
+				"HTMLwysiwyg": {
+					"type": "checkbox",
+					"top": 28,
+					"left": 291,
+					"width": 190,
+					"height": 24,
+					"action": "htmlWYSIWIGEnabled",
+					"text": "HTML WYSIWYG",
+					"focusable": false,
+					"method": "ObjectMethods/HTMLwysiwyg.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"GB2": {
+					"type": "groupBox",
+					"top": 400,
+					"left": 560,
+					"width": 420,
+					"height": 286,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"class": "default",
+					"text": "Range position"
+				},
+				"information1": {
+					"type": "input",
+					"top": 60,
+					"left": 560,
+					"width": 420,
+					"height": 230,
+					"sizingX": "move",
+					"dataSource": "_Descriptions{1}",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 490,
+					"left": 581,
+					"width": 382,
+					"height": 171,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"dataSource": "vRangePosition",
+					"fontFamily": "System Font",
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 466,
+					"left": 580,
+					"width": 180,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "Begins at…"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 310,
+					"left": 560,
+					"width": 420,
+					"height": 76,
+					"sizingX": "move",
+					"class": "default",
+					"text": "Current range"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 344,
+					"left": 697,
+					"width": 63,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "vIndexStart",
+					"dataSourceTypeHint": "number",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0;;",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 344,
+					"left": 880,
+					"width": 63,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "vIndexEnd",
+					"dataSourceTypeHint": "number",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###,###,##0;;",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 344,
+					"left": 580,
+					"width": 110,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "Start:"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 344,
+					"left": 760,
+					"width": 110,
+					"height": 17,
+					"sizingX": "move",
+					"textAlign": "right",
+					"text": "End:"
+				},
+				"Code": {
+					"type": "text",
+					"top": 431,
+					"left": 561,
+					"width": 419,
+					"height": 33,
+					"sizingX": "move",
+					"stroke": "#006400",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Code"
+				}
+			}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"top": 112,
+					"left": 560,
+					"width": 425,
+					"height": 570,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/List Box.4dm",
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "_sections",
+							"width": 70,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Section",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "_pages",
+							"width": 70,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Page",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "_columns",
+							"width": 70,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Column",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "_lines",
+							"width": 70,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Line",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "_positions",
+							"width": 130,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Position in line",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer5",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 75,
+					"left": 689,
+					"width": 188,
+					"height": 22,
+					"sizingX": "move",
+					"text": "Get paragraphs info",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"LB": {
+					"type": "listbox",
+					"top": 112,
+					"left": 560,
+					"width": 425,
+					"height": 570,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/LB.4dm",
+					"events": [
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"name": "Column10",
+							"dataSource": "_bookmarks",
+							"width": 80,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header10",
+								"text": "Bookmarks",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer10",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column6",
+							"dataSource": "_sections",
+							"width": 60,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Section",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer6",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column7",
+							"dataSource": "_pages",
+							"width": 60,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header7",
+								"text": "Page",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer7",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column8",
+							"dataSource": "_columns",
+							"width": 60,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header8",
+								"text": "Column",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer8",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column11",
+							"dataSource": "_lines",
+							"width": 60,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header11",
+								"text": "Line",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer11",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column9",
+							"dataSource": "_positions",
+							"width": 90,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "center",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header9",
+								"text": "Pos. in line",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer9",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 75,
+					"left": 689,
+					"width": 188,
+					"height": 22,
+					"sizingX": "move",
+					"text": "Get Bookmarks info",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"defaultView": "View 1",
+		"activeView": "View 3",
+		"views": {
+			"View 1": {},
+			"Guides": {
+				"objects": [
+					"Line"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"_TabTitles",
+					"HTMLwysiwyg",
+					"GB2",
+					"Variable",
+					"Text",
+					"Group Box2",
+					"Variable4",
+					"Variable5",
+					"Text1",
+					"Text3",
+					"Code",
+					"List Box",
+					"Button",
+					"LB",
+					"Button1"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}
