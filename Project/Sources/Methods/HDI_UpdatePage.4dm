@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 //C_LONGINT($1)
 //C_LONGINT($Page;$i;$n)
 

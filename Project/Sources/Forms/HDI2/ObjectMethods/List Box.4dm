@@ -1,5 +1,4 @@
-C_OBJECT:C1216($paragraph)
-C_COLLECTION:C1488(_paragraphs)
+var $paragraph : Object
 
 Case of 
 	: (Form event code:C388=On Selection Change:K2:29)

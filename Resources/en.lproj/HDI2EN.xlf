@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_TooltipPage" resname="HDI2_TooltipPage">
+				<source>Page mode</source>
+				<target>Page mode</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TooltipDraft" resname="HDI2_TooltipDraft">
+				<source>Draft mode</source>
+				<target>Draft mode</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TooltipWeb" resname="HDI2_TooltipWeb">
+				<source>Web mode</source>
+				<target>Web mode</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HTMLWYSIWYG" resname="HDI2_HTMLWYSIWYG">
+				<source>HTML WYSIWYG</source>
+				<target>HTML WYSIWYG</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupRangePosition" resname="HDI2_GroupRangePosition">
+				<source>Range position</source>
+				<target>Range position</target>
+			</trans-unit>
+			<trans-unit id="HDI2_GroupCurrentRange" resname="HDI2_GroupCurrentRange">
+				<source>Current range</source>
+				<target>Current range</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BeginsAt" resname="HDI2_BeginsAt">
+				<source>Begins at…</source>
+				<target>Begins at…</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Start" resname="HDI2_Start">
+				<source>Start:</source>
+				<target>Start:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_End" resname="HDI2_End">
+				<source>End:</source>
+				<target>End:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Code" resname="HDI2_Code">
+				<source>Code</source>
+				<target>Code</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderSection" resname="HDI2_HeaderSection">
+				<source>Section</source>
+				<target>Section</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPage" resname="HDI2_HeaderPage">
+				<source>Page</source>
+				<target>Page</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderColumn" resname="HDI2_HeaderColumn">
+				<source>Column</source>
+				<target>Column</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderLine" resname="HDI2_HeaderLine">
+				<source>Line</source>
+				<target>Line</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPositionInLine" resname="HDI2_HeaderPositionInLine">
+				<source>Position in line</source>
+				<target>Position in line</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderBookmarks" resname="HDI2_HeaderBookmarks">
+				<source>Bookmarks</source>
+				<target>Bookmarks</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderPosShort" resname="HDI2_HeaderPosShort">
+				<source>Pos. in line</source>
+				<target>Pos. in line</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnParagraphs" resname="HDI2_BtnParagraphs">
+				<source>Get paragraphs info</source>
+				<target>Get paragraphs info</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnBookmarks" resname="HDI2_BtnBookmarks">
+				<source>Get Bookmarks info</source>
+				<target>Get Bookmarks info</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

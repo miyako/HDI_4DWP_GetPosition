@@ -1,6 +1,5 @@
-C_LONGINT:C283($i; $n)
-C_OBJECT:C1216($o)
-C_OBJECT:C1216($range)
+var $i; $n : Integer
+var $o; $range : Object
 
 ARRAY TEXT:C222(_bookmarks; 0)
 ARRAY LONGINT:C221(_sections; 0)

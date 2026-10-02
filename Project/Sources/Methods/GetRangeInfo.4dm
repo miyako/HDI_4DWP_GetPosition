@@ -1,19 +1,9 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 If (True:C214)
 	
-	C_OBJECT:C1216(WParea)
-	C_OBJECT:C1216(userRange)
-	
-	C_BOOLEAN:C305($defined)
-	
-	C_OBJECT:C1216($state)
-	C_OBJECT:C1216($userRange)
-	
-	C_LONGINT:C283($option)
-	C_LONGINT:C283($type)
-	C_LONGINT:C283($end)
-	
-	C_TEXT:C284($code)
+	var $state : Object
+	var $option; $type : Integer
+	var $code : Text
 	
 	userRange:=WP Selection range:C1340(WParea)
 	

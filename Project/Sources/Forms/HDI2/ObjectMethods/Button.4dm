@@ -1,6 +1,4 @@
-C_OBJECT:C1216($body)
-C_OBJECT:C1216($paragraph)
-C_OBJECT:C1216($o)
+var $body; $paragraph; $o : Object
 
 ARRAY LONGINT:C221(_sections; 0)
 ARRAY LONGINT:C221(_pages; 0)

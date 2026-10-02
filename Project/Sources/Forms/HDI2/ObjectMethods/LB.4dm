@@ -1,6 +1,5 @@
-
-C_OBJECT:C1216($range)
-C_LONGINT:C283($p)
+var $range : Object
+var $p : Integer
 
 $p:=Find in array:C230(Self:C308->; True:C214)
 If ($p>0)

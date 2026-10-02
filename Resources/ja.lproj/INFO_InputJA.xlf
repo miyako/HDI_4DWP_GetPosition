@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/TableForms/1/Input/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="INFOInput_PageNumber" resname="INFOInput_PageNumber">
+				<source>Page number:</source>
+				<target>ページ番号:</target>
+			</trans-unit>
+			<trans-unit id="INFOInput_TabTitle" resname="INFOInput_TabTitle">
+				<source>Tab Title:</source>
+				<target>タブタイトル:</target>
+			</trans-unit>
+			<trans-unit id="INFOInput_InsertTable" resname="INFOInput_InsertTable">
+				<source>Insert table</source>
+				<target>表を挿入</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

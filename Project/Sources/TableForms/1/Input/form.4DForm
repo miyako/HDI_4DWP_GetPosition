@@ -191,7 +191,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Field1": {
 					"type": "input",
@@ -204,7 +206,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"fill": "automatic",
+					"stroke": "automatic"
 				},
 				"Description": {
 					"type": "input",
@@ -215,7 +219,7 @@
 					"sizingY": "grow",
 					"dataSource": "[INFO:1]Description:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
@@ -231,7 +235,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text": {
 					"type": "text",
@@ -240,7 +245,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Page number:"
+					"text": ":xliff:INFOInput_PageNumber",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -249,7 +255,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Tab Title:"
+					"text": ":xliff:INFOInput_TabTitle",
+					"stroke": "automatic"
 				},
 				"WParea": {
 					"type": "write",
@@ -295,14 +302,14 @@
 					"top": 731,
 					"left": 871,
 					"width": 174,
-					"height": 21,
 					"sizingY": "move",
-					"text": "Insert table",
+					"text": ":xliff:INFOInput_InsertTable",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}
